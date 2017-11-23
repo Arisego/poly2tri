@@ -31,6 +31,10 @@
 #include "shapes.h"
 #include <iostream>
 
+#pragma warning (disable: 4715)
+#pragma warning (disable: 4701)
+#pragma warning (disable: 4703)
+
 namespace p2t {
 
 Triangle::Triangle(Point& a, Point& b, Point& c)

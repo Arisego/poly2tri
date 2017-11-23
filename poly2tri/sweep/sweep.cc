@@ -34,6 +34,9 @@
 #include "advancing_front.h"
 #include "../common/utils.h"
 
+#pragma warning (disable: 4715)
+#pragma warning (disable: 4703)
+
 namespace p2t {
 
 // Triangulate simple polygon with holes
